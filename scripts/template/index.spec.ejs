@@ -2,9 +2,8 @@ import { describe, expect, it } from 'vitest'
 import { fun } from './index.js'
 
 describe("<%= cname %>测试", () => {
-  it.each([[1, 1, 2],[1, 2, 3]])
-  ("fun",
-   (param1, param2, expected) => {
-    expect(fun(param1, param2)).toEqual(expected);
+  it("fun",
+   () => {
+    expect(fun()).toEqual();
   });
 });
