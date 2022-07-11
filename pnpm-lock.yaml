@@ -6,7 +6,6 @@ specifiers:
   ejs: ^3.1.8
   figlet: ^1.5.2
   inquirer: ^9.0.0
-  lodash-es: ^4.17.21
   ora: ^6.1.2
   prettier: ^2.7.1
   vite: ^2.9.13
@@ -18,7 +17,6 @@ devDependencies:
   ejs: 3.1.8
   figlet: 1.5.2
   inquirer: 9.0.0
-  lodash-es: 4.17.21
   ora: 6.1.2
   prettier: 2.7.1
   vite: 2.9.13
@@ -559,10 +557,6 @@ packages:
   /local-pkg/0.4.1:
     resolution: {integrity: sha512-lL87ytIGP2FU5PWwNDo0w3WhIo2gopIAxPg9RxDYF7m4rr5ahuZxP22xnJHIvaLTe4Z9P6uKKY2UHiwyB4pcrw==}
     engines: {node: '>=14'}
-    dev: true
-
-  /lodash-es/4.17.21:
-    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
     dev: true
 
   /lodash/4.17.21:

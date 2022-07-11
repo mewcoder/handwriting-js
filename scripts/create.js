@@ -1,11 +1,9 @@
-import { promisify } from "util";
 import fs from "fs";
 import path from "path";
 import chalk from "chalk"; // 控制台颜色
 import prettier from "prettier";
 import ejs from "ejs";
 import { fileURLToPath } from "url";
-import { camelCase, padStart } from "lodash-es";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 // const __dirname = path.dirname(".");
@@ -19,6 +17,7 @@ const checkDir = (dir) => {
     return false;
   }
 };
+
 
 export const create = (config) => {
   const { cname, group } = config;
@@ -42,7 +41,7 @@ export const createDir = (str) => {
     fs.mkdirSync(dir);
     return dir;
   } else {
-    console.log(chalk.orange("目录已存在"));
+    console.log(chalk.red("目录已存在"));
   }
 };
 
