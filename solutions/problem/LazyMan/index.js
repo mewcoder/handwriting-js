@@ -34,5 +34,3 @@ export class LazyMan {
   }
 }
 
-const me = new LazyMan("Tom");
-me.eat("dinner").sleep(3).eat("lunch");
